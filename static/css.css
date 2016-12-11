@@ -1,0 +1,98 @@
+body {
+	background: url('pages_bw_blur.jpg') no-repeat fixed;
+	background-size: cover;
+}
+header, nav, main, footer {
+	display: flex;
+	justify-content: center;
+}
+header > #title {
+	background: linear-gradient(to right,blue, white 20%, white 30%, red 90%);
+	opacity: 0.8;
+	text-align: center;
+	margin: 10px 10px 10px 10px;
+	padding: 10px;
+	width: 800px;
+	position: relative;
+	font-family: Constantia,'minijianyingbik78bba942717567';
+}
+header > #title > img {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+}
+nav > * {
+	background: #333;
+	opacity: 0.8;
+	color: white;
+	text-align: center;
+	padding: 20px 10px;
+	margin: 10px;
+	width: 170px;
+	font-size: 20px;
+	cursor: pointer;
+}
+nav > :hover {
+	background: #444;
+}
+nav > .on {
+	background: white;
+	color: black;
+}
+nav > .on:hover {
+	font-weight: normal;
+	cursor: auto;
+}
+main > * {
+	background: white;
+	opacity: 0.9;
+	margin: 10px;
+	padding: 30px;
+	width: 760px;
+}
+section {
+	display: none;
+	font-size: 18px;
+	line-height: 36px;
+	font-family: Tahoma,'Microsoft Yahei','微软雅黑';
+}
+section#home {
+	display: block;
+	text-align: center;
+}
+/* section.on { */
+	/* display: block; */
+	/* line-height: 24px; */
+	/* text-align: center; */
+/* } */
+section > ul {
+	list-style: square;
+	padding-left: 25px;
+}
+ul > ul {
+	list-style: circle;
+}
+.small {
+	font-size: 16px;
+	line-height: 28px;
+}
+section#contact {
+	text-align: center;
+}
+aside {
+	display: inline;
+	position: absolute;
+	top: 0px;
+	right: 2px;
+}
+aside > * {
+	padding: 0px 1px;
+	color: white;
+	text-decoration: none;
+	font-size: 11px;
+	cursor: pointer;
+}
+aside > .on {
+	border: 1px solid white;
+	cursor: auto;
+}
