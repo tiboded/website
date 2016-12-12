@@ -5,8 +5,7 @@
 		<meta name='' content=''>
 		<title>中法互译——在线法语课程</title>
 		<link rel='stylesheet' href='{{ url_for("static",filename="css.css") }}'>
-		<!--<link href='//cdn.webfont.youziku.com/webfonts/nomal/95591/19673/58403c5df629d80748ce1c77.css' rel='stylesheet' type='text/css' />-->
-		<link href='//cdn.webfont.youziku.com/webfonts/nomal/95591/19493/584b68c7f629d8126c7be394.css' rel='stylesheet' type='text/css' />
+		<link href='//cdn.webfont.youziku.com/webfonts/nomal/95591/19493/584b68c7f629d8126c7be394.css' rel='stylesheet' type='text/css'/>
 		<script src='https://lib.sinaapp.com/js/jquery/3.1.0/jquery-3.1.0.min.js'></script>
 		<script src='{{ url_for("static",filename="js.js") }}'></script>
 	</head>
@@ -16,7 +15,7 @@
 			<div id='title'>
 				<h1>中法互译<br/>
 					在线法语课程</h1>
-				<img src='{{ url_for("static",filename="stars.png") }}'>
+				<img class='stars' src='{{ url_for("static",filename="stars.png") }}'>
 			</div>
 		</header>
 		<nav>
@@ -26,51 +25,45 @@
 			<span id='contact'>联系我们</span>
 		</nav>
 		<main>
-			<div> <!--necessary ?-->
-				<section id='home'>
-					<p>欢迎来到我们的网站！</p>
-					<p>我们是武晓偲（Léa）和 Thibaut Deduit（狄波），2013年起在沈阳工作生活的跨国组合。</p>
-					<p>我们将以出色的能力和丰富的经验为您提供中法互译和法语课程服务。</p>
-				</section>
-				<section id='translate'>
-					<p>我们在该领域的工作经验如下：</p>
+			<section id='home' class='on'>
+				<p class='left'><br/>...<br/><br/></p>
+				<img class='xiaosi' src='{{ url_for("static",filename="xiaosi.jpg") }}'>
+				<img class='tibo' src='{{ url_for("static",filename="tibo.jpg") }}'>
+				<p class='right'><br/>我们将针对需求在翻译和法语课程方面竭诚为您服务。</p>
+			</section>
+			<section id='translate'>
+				<p>工作经验：</p>
+					<ul>
+						<li>François Levaillant 《非洲鸟类史》的中文译本</li>
 						<ul>
-							<li>18世纪末期 François Levaillant 的自然学巨著《非洲鸟类史》中译本（约179213字）</li>
-							<li>各种类型证明文件、合同资料（合资企业文件、股份转让函等）的翻译</li>
-							<li>科技类文献</li>
-						</ul>
-				</section>
-				<section id='teach'>
-					<p>我们在该领域的工作经验如下：</p>
+							<li class='small'>约17万字</li>
+							<li class='small'>译自18世纪末的古典法语</li>
+							<li class='small'>翻译之余针对该著作进行了历史、地理、自然学科方面的重要研究</li>
+						</ul><br/>
+						<li>官方文件的翻译：学历文凭、合资企业工作合同、股份转让函等</li>
+						<li>中法双语字幕的制作</li>
+						<li>不同类型科技文献的翻译</li>
+					</ul>
+			</section>
+			<section id='teach'>
+				<p>工作经历：</p>
+					<ul>
+						<li>语言学校及留学中介的法语授课：</li>
 						<ul>
-							<li>曾在冠亚法语、弗朗斯法语、加中法语等教育机构任教</li>
-							<li>开展一对一私教课，面对面授课或在线通过QQ、微信、Skype网络授课</li>
-						</ul>
-					<p>有超过2500小时的授课经验</p>
-					<p>对下至10岁，上至65岁，法语等级从A1到C2的学生都有着丰富的教学经验</p>
-								2013年11月~2016年11月 法语私教 A1至C1级别学生
-								2015年8月~2016年10月 弗朗斯法语 1到9人小班授课
-								2014年5月~2015年7月 金矢留学 1到8人小班授课
-								2014年9月~2015年1月 沈阳体育学院 15人法国交流项目预备班
-								2013 年12月~2014年10月 冠亚法语 1到3人小班授课
-				</section>
-				<section id='contact'>
-					<table>
-						<tr>
-							<td>微信</td>
-							<td>Thibaut-Si</td>
-						</tr>
-						<tr>
-							<td>QQ</td>
-							<td>411658819</td>
-						</tr>
-						<tr>
-							<td>邮箱</td>
-							<td>leasi0510@gmail.com</td>
-						</tr>
-					</table>
-				</section>
-			</div>
+							<li class='small'>2013年12月至2014年10月，冠亚法语：1到3人的小班授课，A1到B1水平，普通课程以及针对性的口语训练</li>
+							<li class='small'>2013年12月至2014年10月，沈阳体育学院，两个20人左右的班级，A1到B1水平，针对中法学校间交流项目的口语课程</li>
+							<li class='small'>2014年5月至2015年7月，金矢留学，1到8人的班级授课，A1到B1水平，普通课程，口语课程，考前培训以及面签辅导</li>
+							<li class='small'>2015年8月至2016年10月，弗朗斯法语：1到9人的班级授课，A1到C1水平，普通课程，口语课程，面试辅导</li>
+						</ul><br/>
+						<li>法语私教课，家教以及在线语音教学（通过Skype，微信，QQ），所有课程种类，学生从10岁到65岁，从A1至C2各个级别</li>
+					</ul>
+				<p>总计超过2500小时的教学经验</p>
+			</section>
+			<section id='contact'>
+				<p><b>微信</b><br/>Thibaut-Si</p>
+				<p><b>QQ</b><br/>411658819</p>
+				<p><b>邮箱</b><br/>leasi0510@gmail.com</p>
+			</section>
 		</main>
 		<aside>
 			<a id='fr' href='{{ url_for("fr") }}'>FR</a>
