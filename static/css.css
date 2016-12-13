@@ -11,7 +11,7 @@ header > #title {
 	opacity: 0.8;
 	text-align: center;
 	margin: 10px 10px 10px 10px;
-	padding: 5px 10px;
+	padding: 10px;
 	width: 840px;
 	position: relative;
 }
@@ -100,8 +100,8 @@ aside > * {
 	text-decoration: none;
 	text-align: center;
 	font-size: 16px;
-	padding: 5px;
-	margin: 3px;
+	padding: 3px 5px;
+	margin: 4px 2px;
 	cursor: pointer;
 	border-radius: 10px;
 }
