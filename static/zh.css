@@ -1,10 +1,10 @@
 @import url('css.css');
 
 * {
-	font-family: 'Microsoft Yahei','微软雅黑',Verdana,Arial,sans-serif;
+	font-family: 'Microsoft Yahei','微软雅黑';
 }
 #title {
-	font-family: 'minijianyingbik78bba942717567';
+	font-family: 'minijianyingbik78bba942717567','Microsoft Yahei','微软雅黑';
 	font-size: 1.2em;
 	letter-spacing: 0.3em;
 }
