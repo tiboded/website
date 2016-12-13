@@ -58,12 +58,12 @@ section#home {
 	display: block;
 }
 .left {
-	width: 65%;
+	width: 70%;
 	float: left;
 	text-align: center;
 }
 .right {
-	width: 65%;
+	width: 70%;
 	float: right;
 	text-align: center;
 }
