@@ -1,9 +1,9 @@
 @import url('css.css');
 
 * {
-	font-family: Tahoma, Arial,sans-serif;
+	font-family: Tahoma;
 }
 #title {
-	font-family: Palatino, Arial,sans-serif;
+	font-family: Palatino;
 	font-size: 0.8em;
 }
