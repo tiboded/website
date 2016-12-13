@@ -2,7 +2,7 @@ body {
 	background: url('pages_bw_blur.jpg') no-repeat fixed;
 	background-size: cover;
 }
-header, nav, main, footer {
+header, nav, main {
 	display: flex;
 	justify-content: center;
 }
@@ -11,10 +11,9 @@ header > #title {
 	opacity: 0.8;
 	text-align: center;
 	margin: 10px 10px 10px 10px;
-	padding: 10px;
+	padding: 5px 10px;
 	width: 800px;
 	position: relative;
-	font-family: Constantia,'minijianyingbik78bba942717567';
 }
 .stars {
 	position: absolute;
@@ -31,6 +30,7 @@ nav > * {
 	width: 170px;
 	font-size: 20px;
 	cursor: pointer;
+	border-radius: 10px;
 }
 nav > :hover {
 	background: #444;
@@ -40,7 +40,6 @@ nav > .on {
 	color: black;
 }
 nav > .on:hover {
-	font-weight: normal;
 	cursor: auto;
 }
 main > * {
@@ -54,7 +53,6 @@ section {
 	display: none;
 	font-size: 18px;
 	line-height: 36px;
-	font-family: Tahoma,'Microsoft Yahei','微软雅黑';
 }
 section#home {
 	display: block;
@@ -90,19 +88,29 @@ section#contact {
 	text-align: center;
 }
 aside {
-	display: inline;
-	position: absolute;
-	top: 0px;
-	right: 2px;
+	text-align: center;
+	margin: 3px;
 }
 aside > * {
-	padding: 0px 1px;
+	display: inline;
 	color: white;
+	background: #333;
+	opacity: 0.8;
 	text-decoration: none;
-	font-size: 12px;
+	text-align: center;
+	font-size: 16px;
+	padding: 5px;
+	margin: 3px;
 	cursor: pointer;
+	border-radius: 10px;
+}
+aside > :hover {
+	background: #444;
 }
 aside > .on {
-	border: 1px solid white;
+	background: white;
+	color: black;
+}
+aside > .on:hover {
 	cursor: auto;
 }
