@@ -1,8 +1,8 @@
 @import url('css.css');
 
 * {
-	font-family: Tahoma;
+	font-family: Tahoma, Arial;
 }
 #title {
-	font-family: Palatino;
+	font-family: Palatino, Arial;
 }
