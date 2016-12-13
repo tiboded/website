@@ -1,5 +1,8 @@
 @import url('css.css');
 
-#title, section {
+* {
 	font-family: Tahoma;
+}
+#title {
+	font-family: Palatino;
 }

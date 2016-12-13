@@ -80,9 +80,10 @@ section > ul {
 ul > ul {
 	list-style: circle;
 }
-.small {
-	font-size: 16px;
-	line-height: 28px;
+ul > ul > li {
+	font-size: 14px;
+	line-height: 24px;
+	font-decoration: none;
 }
 section#contact {
 	text-align: center;
