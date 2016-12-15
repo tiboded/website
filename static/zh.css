@@ -6,7 +6,10 @@
 header {
 	letter-spacing: 5px;
 }
-nav,main,footer {
+nav {
+	font-size: 18px;
+}
+main,footer {
 	font-size: 16px;
 }
 ul > ul > li {

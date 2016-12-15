@@ -3,10 +3,10 @@
 * {
 	font-family: Tahoma,sans-serif;
 }
-header {
-	font-family: 'Palatino',sans-serif;
+nav {
+	font-size: 18px;
 }
-nav,main,footer {
+main,footer {
 	font-size: 16px;
 }
 ul > ul > li {
