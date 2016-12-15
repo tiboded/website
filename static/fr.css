@@ -4,6 +4,10 @@ nav,main,footer {
 	font-family: Tahoma,sans-serif;
 	font-size: 16px;
 }
+header {
+	font-family: Tahoma,sans-serif;
+	font-size: 36px;
+}
 ul > ul > li {
 	font-size: 14px;
 }
