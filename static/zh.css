@@ -4,10 +4,10 @@
 	font-family: 'Microsoft Yahei','微软雅黑',Tahoma,sans-serif;
 	font-size: 18px;
 }
-#title {
-	letter-spacing: 30px;
-	font-size: 36px;
+header {
+	letter-spacing: 10px;
+	font-size: 48px;
 }
-ul > ul {
+ul > ul > li {
 	font-size: 12px;
 }

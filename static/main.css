@@ -6,7 +6,7 @@ header, nav, main {
 	display: flex;
 	justify-content: center;
 }
-header > #title {
+#title {
 	background: linear-gradient(to right,blue, white 20%, white 30%, red 90%);
 	opacity: 0.8;
 	text-align: center;
