@@ -1,7 +1,8 @@
 @import url('css.css');
 
 * {
-	font-family: Verdana,Arial,sans-serif;
+	/* font-family: Verdana,Arial,sans-serif; */
+	font-family: Helvetica,serif;
 }
 #title {
 	font-family: Palatino,Arial,sans-serif;

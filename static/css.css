@@ -1,6 +1,7 @@
 body {
 	background: url('pages_bw_blur.jpg') no-repeat fixed;
 	background-size: cover;
+	font-family: 'Microsoft Yahei','微软雅黑',Tahoma,sans-serif;
 }
 header, nav, main {
 	display: flex;
