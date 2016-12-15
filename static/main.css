@@ -61,7 +61,7 @@ section#home {
 	text-align: center;
 }
 .right {
-	width: 60%;
+	width: 65%;
 	float: right;
 	text-align: center;
 }
@@ -84,11 +84,11 @@ ul > ul > li {
 section#contact {
 	text-align: center;
 }
-aside {
+footer {
 	text-align: center;
 	margin: 3px;
 }
-aside > * {
+footer > * {
 	display: inline;
 	color: white;
 	background: #333;
@@ -100,13 +100,13 @@ aside > * {
 	cursor: pointer;
 	border-radius: 10px;
 }
-aside > :hover {
+footer > :hover {
 	background: #444;
 }
-aside > .on {
+footer > .on {
 	background: white;
 	color: black;
 }
-aside > .on:hover {
+footer > .on:hover {
 	cursor: auto;
 }

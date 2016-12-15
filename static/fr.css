@@ -1,6 +1,6 @@
 @import 'main.css';
 
-* {
+nav,main,footer {
 	font-family: Tahoma,sans-serif;
 	font-size: 16px;
 }
