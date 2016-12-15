@@ -2,11 +2,11 @@
 
 * {
 	font-family: Tahoma,sans-serif;
-	font-size: 14px;
+	font-size: 18px;
 }
 #title {
-	font-size: 24px;
+	font-size: 36px;
 }
-li > li {
+ul > ul {
 	font-size: 12px;
 }

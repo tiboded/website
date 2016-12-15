@@ -2,11 +2,12 @@
 
 * {
 	font-family: 'Microsoft Yahei','微软雅黑',Tahoma,sans-serif;
-	font-size: 1.3em;
+	font-size: 18px;
 }
 #title {
-	letter-spacing: 5px;
+	letter-spacing: 30px;
+	font-size: 36px;
 }
-li > li {
-	font-size: 1em;
+ul > ul {
+	font-size: 12px;
 }
