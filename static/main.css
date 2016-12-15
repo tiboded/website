@@ -10,7 +10,7 @@ header, nav, main {
 	background: linear-gradient(to right,blue, white 20%, white 30%, red 90%);
 	opacity: 0.8;
 	text-align: center;
-	margin: 10px 10px 10px 10px;
+	margin: 30px 10px 10px 10px;
 	padding: 10px;
 	width: 840px;
 	position: relative;

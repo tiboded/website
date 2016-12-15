@@ -1,11 +1,11 @@
 @import 'main.css';
 
-nav,main,footer {
+nav,section,footer {
 	font-family: 'Microsoft Yahei','微软雅黑',Tahoma,sans-serif;
 	font-size: 16px;
 }
 header {
-	letter-spacing: 10px;
+	letter-spacing: 5px;
 }
 ul > ul > li {
 	font-size: 14px;
