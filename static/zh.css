@@ -1,5 +1,6 @@
 @import 'main.css';
 
 * {
-	font-family: 'Microsoft Yahei','微软雅黑',Tahoma,Geneva,sans-serif;
+	/* font-family: 'Microsoft Yahei','微软雅黑',Tahoma,sans-serif; */
+	font-family:'Microsoft_YaHei7a650f7e217567',Tahoma,sans-serif;
 }
